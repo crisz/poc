@@ -100,6 +100,8 @@ html, body {
   background: url('img/team-button.png') center center no-repeat;
   margin: 35px;
   display: inline-block;
+  text-align: center;
+  line-height: 100px;
 }
 
 .team-button:hover {
@@ -110,4 +112,25 @@ html, body {
   display: inline-block;
   cursor: pointer;
   color: white;
+}
+span.label {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+#info-team {
+  width: 350px;
+  height: calc(90vh - 70px);
+  position: absolute;
+  right: 0;
+  background: blue;
+  visibility: hidden;
+}
+
+.document {
+  width: 207px;
+  height: 168px;
+  background: url('img/document.png') center center no-repeat;
+  margin: 25px;
 }

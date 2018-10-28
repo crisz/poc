@@ -15,21 +15,27 @@
     <div class="buttons-container">
       <div class="button">
         <div class="icon"></div>
+        <span class="label">Attività Utente</span>
+      </div>
+      <div class="button">
+        <div class="icon" onclick="loadTeam()"></div>
+        <span class="label">Team</span>
       </div>
       <div class="button">
         <div class="icon"></div>
+        <span class="label">File system</span>
+      </div>
+      <div class="button">
+        <div class="icon" onclick="loadWorkflow()"></div>
+        <span class="label">Workflow</span>
       </div>
       <div class="button">
         <div class="icon"></div>
+        <span class="label">Monitoraggio</span>
       </div>
       <div class="button">
         <div class="icon"></div>
-      </div>
-      <div class="button">
-        <div class="icon"></div>
-      </div>
-      <div class="button">
-        <div class="icon"></div>
+        <span class="label">Gestione utenze</span>
       </div>
     </div>
   </div>
@@ -39,7 +45,7 @@
       <input type="search" placeholder="Search">
       <div class="team-header">
       </div>
-
+      <span id="generated-content"></span>
     </div>
   </div>
 
