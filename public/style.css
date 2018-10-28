@@ -1,0 +1,113 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.header {
+  width: 100vw;
+  height: 70px;
+  background-image: url('./img/header.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-color: #e5e5e5;
+  box-shadow: 0px 3px 19px 0px rgba(145,145,145,1);
+}
+
+#asidebar {
+  background-color: #fbfbfb;
+  width: 22vw;
+  height: calc(100vh - 70px);
+  position: absolute;
+  left: 0;
+  top: 70px;
+}
+
+.buttons-container {
+  height: 535px;
+  width: 80%;
+  margin-top: 100px;
+  background-image: url('./img/buttons-container.png');
+  background-position: 20% center;
+  background-repeat: no-repeat;
+}
+.button {
+  width: 100%;
+  height: 64px;
+  margin-left: 50px;
+  margin: 18px;
+  position: relative;
+  top: 27px;
+  left: 20px;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  margin-left: 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+
+.button:nth-child(1) .icon {
+  background-image: url('img/b1-off.png');
+}
+.button:nth-child(2) .icon {
+  background-image: url('img/b2-on.png');
+}
+.button:nth-child(3) .icon {
+  background-image: url('img/b3-off.png');
+}
+.button:nth-child(4) .icon {
+  background-image: url('img/b4-off.png');
+}
+.button:nth-child(5) .icon {
+  background-image: url('img/b5-off.png');
+}
+.button:nth-child(6) .icon {
+  background-image: url('img/b6-off.png');
+}
+
+.main-container {
+  position: absolute;
+  left: 22vw;
+  width: 78vw;
+  height: calc(100vh - 70px);
+}
+
+.search-bar-container {
+  width: 70%;
+  height: 30px;
+  border-bottom: solid 1px darkslategray;
+  margin: 20px;
+}
+.search-bar-container > input {
+  width: 100%;
+  height: 30px;
+  border: 0;
+} 
+
+.team-header {
+  width: 100%;
+  height: 96px;
+  background: url('img/team-header.png') left top no-repeat;
+  margin-top: 5px;
+}
+
+.team-button {
+  width: 274px;
+  height: 106px;
+  background: url('img/team-button.png') center center no-repeat;
+  margin: 35px;
+  display: inline-block;
+}
+
+.team-button:hover {
+  width: 274px;
+  height: 106px;
+  background: url('img/team-button-hover.png') center center no-repeat;
+  margin: 35px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+}
